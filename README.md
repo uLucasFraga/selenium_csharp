@@ -5,9 +5,13 @@ Projeto básico para ensino da equipe de QA's da @inmetrics-RJ.
 
 # [Ambiente]:
 _Windows 10;
+
 _.NET Framework 4+;
+
 _Chocolatey [https://chocolatey.org/];
+
 _ChromeDriver [https://chocolatey.org/packages/selenium-chrome-driver];
+
 _Chrome 69;
 
 # [Frameworks]:
