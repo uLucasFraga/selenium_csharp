@@ -1,7 +1,7 @@
-# selenium_csharp_dojo_basic_inmetrics
+# selenium_csharp_dojo_basic
 PROJETO BASICO EM BDD - SELENIUM COM C# .NET
 
-Projeto básico para ensino da equipe de QA's da @inmetrics-RJ.
+Projeto básico de iniciativa para estudos de uma equipe de QA's.
 
 # [Ambiente]:
 _Windows 10;
