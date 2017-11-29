@@ -56,7 +56,10 @@ _Baixar frameworks pelo NuGet's;
 
 _Clean and Build na Solution;
 
-_Bom diversão e estudos!
+_Boa diversão e estudos!
+
+OBS:
+Melhores práticas, novos conceitos e sugestões serão sempre bem vindas.
 
 
 Dúvidas: lucass.fragaa@gmail.com
