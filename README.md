@@ -14,7 +14,7 @@ _ChromeDriver [https://chocolatey.org/packages/selenium-chrome-driver];
 
 _Chrome 69;
 
-# [Frameworks]:
+# [Frameworks (NuGet's)]:
 _Visual Studio 2017;
 
 _Selenium;
