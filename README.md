@@ -1,4 +1,4 @@
-# selenium_csharp_dojo_basic
+# selenium_csharp_basic
 PROJETO BASICO EM BDD - SELENIUM COM C# .NET
 
 Projeto básico de iniciativa para estudos de uma equipe de QA's.
