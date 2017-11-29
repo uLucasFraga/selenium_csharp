@@ -14,7 +14,7 @@ _ChromeDriver [https://chocolatey.org/packages/selenium-chrome-driver];
 
 _Chrome 69;
 
-# [Frameworks (NuGet's)]:
+# [Frameworks]:
 _Visual Studio 2017;
 
 _Selenium;
@@ -51,6 +51,8 @@ _Baixar Selenium ChromeDriver [chocolatey];
 _Abrir VS17 e fazer download do Specflow [Tools > Extension and Updates > Specflow];
 
 _Clonar projeto;
+
+_Baixar frameworks pelo NuGet's;
 
 _Clean and Build na Solution;
 
