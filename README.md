@@ -58,7 +58,7 @@ _Clean and Build na Solution;
 
 _Boa diversão e estudos!
 
-OBS:
+# [Conclusão]:
 Melhores práticas, novos conceitos e sugestões serão sempre bem vindas.
 
 
