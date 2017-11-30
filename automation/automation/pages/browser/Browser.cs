@@ -1,6 +1,7 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
+using OpenQA.Selenium.IE;
 using System;
 using TechTalk.SpecFlow;
 
@@ -29,6 +30,12 @@ namespace automation.pages
 					Driver = new FirefoxDriver(profile);
 					ConfigurarBrowser();
 					ScenarioContext.Current["Driver"] = Driver;
+					break;
+
+				case "IE":
+					Driver = new InternetExplorerDriver();
+					ConfigurarBrowser();
+					ScenarioContext.Current["driver"] = Driver;
 					break;
 
 				default:

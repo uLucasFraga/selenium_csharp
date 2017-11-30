@@ -20,6 +20,10 @@ namespace automation.hooks
 			if (ScenarioContext.Current.ScenarioInfo.Tags.Contains("Firefox") ||
 				(FeatureContext.Current.FeatureInfo.Tags.Contains("Firefox")))
 				iniciar.EscolherBrowser("Firefox");
+
+			if (ScenarioContext.Current.ScenarioInfo.Tags.Contains("IE") ||
+				(FeatureContext.Current.FeatureInfo.Tags.Contains("IE")))
+				iniciar.EscolherBrowser("IE");
 		}
 
 		[AfterScenario]
