@@ -75,7 +75,7 @@
     <Compile Include="features\steps\google\GooglePesquisaSteps.cs" />
     <Compile Include="hooks\Hooks.cs" />
     <Compile Include="pages\BasePage.cs" />
-    <Compile Include="pages\browser\Browser.cs" />
+    <Compile Include="browser\Browser.cs" />
     <Compile Include="pages\componentes\google\GoogleVerificacoes.cs" />
     <Compile Include="pages\google\GoogleElementos.cs" />
     <Compile Include="pages\google\GoogleMetodos.cs" />
