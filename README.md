@@ -12,6 +12,10 @@ _Chocolatey [https://chocolatey.org/];
 
 _ChromeDriver [https://chocolatey.org/packages/selenium-chrome-driver];
 
+_GeckoDriver [https://chocolatey.org/packages/selenium-gecko-driver];
+
+_IEDriver [https://chocolatey.org/packages/selenium-ie-driver];
+
 _Chrome 69;
 
 # [Frameworks]:
@@ -30,7 +34,7 @@ _ScenarioContext;
 
 _CleanCode;
 
-_Metódos base com esperas inteligentes;
+_Metódos base com eventos personalizados;
 
 _BDD;
 
@@ -46,15 +50,15 @@ _Validar que a pesquisa foi concluída com sucesso;
 # [Step by Step]:
 _Baixar Chocolatey pelo cmd [entrar como admin];
 
-_Baixar Selenium ChromeDriver [chocolatey];
+_Baixar Driver's do selenium [chocolatey];
 
 _Abrir VS17 e fazer download do Specflow [Tools > Extension and Updates > Specflow];
 
 _Clonar projeto;
 
-_Baixar frameworks pelo NuGet's;
-
 _Clean and Build na Solution;
+
+_Baixar NuGet's se necessário;
 
 # [Conclusão]:
 Melhores práticas, novos conceitos e sugestões serão sempre bem vindas. Boa diversão e estudos!
