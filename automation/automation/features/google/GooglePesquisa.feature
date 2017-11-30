@@ -6,7 +6,14 @@
 @Chrome
 Funcionalidade: Pesquisar no google
 
+#positivo
 Cenario: Pesquisar no google com sucesso
 	Dado que eu navegue para a home
 	Quando eu realizar uma pesquisa
 	Entao eu visualizo a pesquisa com sucesso
+
+#negativo
+Cenario: Pesquisar no google sem sucesso
+	Dado que eu navegue para a home
+	Quando eu realizar uma pesquisa
+	Entao eu visualizo a pesquisa inválida com sucesso

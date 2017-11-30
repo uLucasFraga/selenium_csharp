@@ -8,7 +8,7 @@ namespace automation.pages
 	public class BasePage
 	{
 		private static int ESPERAR_ELEMENTO_SEGUNDOS = 20;
-		readonly IWebDriver Driver;
+		private readonly IWebDriver Driver;
 
 		public BasePage()
 		{

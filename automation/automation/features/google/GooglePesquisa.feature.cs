@@ -70,14 +70,31 @@ namespace automation.Features.Google
         public virtual void PesquisarNoGoogleComSucesso()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Pesquisar no google com sucesso", ((string[])(null)));
-#line 9
-this.ScenarioSetup(scenarioInfo);
 #line 10
- testRunner.Given("que eu navegue para a home", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
+this.ScenarioSetup(scenarioInfo);
 #line 11
- testRunner.When("eu realizar uma pesquisa", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
+ testRunner.Given("que eu navegue para a home", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
 #line 12
+ testRunner.When("eu realizar uma pesquisa", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
+#line 13
  testRunner.Then("eu visualizo a pesquisa com sucesso", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Pesquisar no google sem sucesso")]
+        public virtual void PesquisarNoGoogleSemSucesso()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Pesquisar no google sem sucesso", ((string[])(null)));
+#line 16
+this.ScenarioSetup(scenarioInfo);
+#line 17
+ testRunner.Given("que eu navegue para a home", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
+#line 18
+ testRunner.When("eu realizar uma pesquisa", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
+#line 19
+ testRunner.Then("eu visualizo a pesquisa inválida com sucesso", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
             this.ScenarioCleanup();
         }

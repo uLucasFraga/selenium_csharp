@@ -1,4 +1,6 @@
 ﻿using automation.pages;
+using automation.utils;
+using OpenQA.Selenium;
 using System.Linq;
 using TechTalk.SpecFlow;
 
@@ -7,7 +9,6 @@ namespace automation.hooks
 	[Binding]
 	public sealed class Hooks
 	{
-
 		[BeforeScenario]
 		public void BeforeScenario()
 		{
@@ -29,6 +30,11 @@ namespace automation.hooks
 		[AfterScenario]
 		public void AfterScenario()
 		{
+			if (ScenarioContext.Current.TestError != null)
+			{
+				var screen = new ScreenShot();
+				screen.TirarScreenshot();
+			}
 			var fim = new Browser();
 			fim.FinalizarBrowser();
 		}

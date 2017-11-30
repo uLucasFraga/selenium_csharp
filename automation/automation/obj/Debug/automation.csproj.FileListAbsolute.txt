@@ -41,6 +41,7 @@ C:\Users\TI\Desktop\selenium_csharp\automation\automation\bin\Debug\Newtonsoft.J
 C:\Users\TI\Desktop\selenium_csharp\automation\automation\bin\Debug\nunit.framework.xml
 C:\Users\TI\Desktop\selenium_csharp\automation\automation\bin\Debug\WebDriver.xml
 C:\Users\TI\Desktop\selenium_csharp\automation\automation\bin\Debug\WebDriver.Support.xml
+C:\Users\TI\Desktop\selenium_csharp\automation\automation\obj\Debug\automation.csprojResolveAssemblyReference.cache
 C:\Users\TI\Desktop\selenium_csharp\automation\automation\obj\Debug\automation.Properties.Resources.resources
 C:\Users\TI\Desktop\selenium_csharp\automation\automation\obj\Debug\automation.csproj.GenerateResource.Cache
 C:\Users\TI\Desktop\selenium_csharp\automation\automation\obj\Debug\automation.csproj.CoreCompileInputs.cache

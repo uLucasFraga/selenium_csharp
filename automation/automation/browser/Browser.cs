@@ -9,7 +9,7 @@ namespace automation.pages
 {
 	public sealed class Browser
 	{
-		public IWebDriver Driver { get; set; }
+		private IWebDriver Driver { get; set; }
 
 		public void EscolherBrowser(string browser)
 		{
