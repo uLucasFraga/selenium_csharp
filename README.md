@@ -47,6 +47,8 @@ _Realizar uma pesquisa;
 
 _Validar que a pesquisa foi concluída com sucesso;
 
+_Caso ocorra erro, gerar screenshot [salvar projeto em algum local @C:\];
+
 # [Step by Step]:
 _Baixar Chocolatey pelo cmd [entrar como admin];
 
