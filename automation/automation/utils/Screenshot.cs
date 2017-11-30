@@ -1,6 +1,7 @@
 ﻿using OpenQA.Selenium;
 using System;
 using System.IO;
+using System.Reflection;
 using System.Text;
 using TechTalk.SpecFlow;
 using TechTalk.SpecFlow.Tracing;
